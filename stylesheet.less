@@ -689,7 +689,7 @@ div[role="main"] {
 .widget {
     &.menusections {
         ul {
-            border: 1px solid lighten(@color-swatch5, 40%);
+            border: 1px solid lighten(@color-swatch6, 50%);
             text-align: center;
         }
     }
@@ -712,9 +712,13 @@ div[role="main"] {
         h1 {
             padding-bottom: 0;
             &:after {
-                content: "\2014";
+                border-bottom: 2px solid #112539;
+                content: "";
                 display: block;
-                padding-top: 12px;
+                margin: 0 auto;
+                padding-top: 22px;
+                width: 40px;
+                margin-bottom: 8px;
             }
         }
         p {
@@ -746,17 +750,17 @@ div[role="main"] {
         line-height: @font-swatch5-line-height;
     }
     .menu-section-item-dietary-props .dietary-icon {
-        border: 1px solid lighten(@color-swatch5, 30%);
+        border: 1px solid lighten(@color-swatch6, 30%);
         font-size: bkscale(@font-swatch5-font-size, 0.86);
         padding: 2px 5px;
         margin-top: 15px;
     }
     .menu-subsection-promoted, .menu-items li.menu-item-promoted {
-        background-color: lighten(@color-swatch5, 40%);
-        border: 1px solid lighten(@color-swatch5, 28%);
+        background-color: lighten(@color-swatch6, 45%);
+        border: 1px solid lighten(@color-swatch6, 28%);
         padding: 2em;
         &:hover {
-            background-color: lighten(@color-swatch5, 36%);
+            background-color: lighten(@color-swatch6, 40%);
             transition: background-color ease-in 0.5s;
         }
         @media @mobile {
