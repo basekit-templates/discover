@@ -70,7 +70,7 @@
             "font-family": "\"Oswald\", Arial, sans-serif",
             "font-size": "38px",
             "font-weight": "400",
-            "line-height": "30px",
+            "line-height": "42px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },

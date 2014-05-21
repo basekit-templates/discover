@@ -302,14 +302,17 @@ h5 {
                 width: 100%;
             }
             button.btn {
-                background-color: @color-swatch1;
-                color: @color-swatch3;
+                background-color: @color-swatch3;
+                color: @color-swatch1;
                 display: block;
-                padding: 12px 15px;
-                margin: 15px auto 0;
+                padding: 8px 10px 10px;
+                margin: 10px auto 0;
                 &:hover {
-                    background-color: fade(@color-swatch1, 80%);
+                    background-color: fade(@color-swatch3, 90%);
                     transition: background-color ease-in 0.5;
+                }
+                span { 
+                    font-size: bkscale(@font-swatch7-font-size, 0.95);
                 }
             }
         }
@@ -925,8 +928,14 @@ div[role="main"] {
         padding: 0;
         min-height: 500px;
     }
+   .slideshow-image {
+      max-height: auto;
+   }
     span.inner {
         min-height: 500px;
+        img {
+            width: 100%;
+        }
     }
     .slideshow-widget .btn-play, .btn-prev, .btn-next {
         -webkit-transition: opacity .2s;
