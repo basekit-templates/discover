@@ -1,0 +1,19 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+{% include 'includes/header.twig' %}
+
+<div class="bk-feature clearfix">
+    {{widget('feature', 'feature-widget', {"header": "DISCOVER", "strapline":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan varius est fermentum.", "buttonText":"Find out more today →","defaultBgImg": asset('images/feature-bg.jpg'), 'positionTopPercentage': '50','showBtn': false})|raw}}
+</div>
+
+<div role="main">
+	<div class="container">
+	    {{zone('main')|raw}}
+	</div><!--end container-->
+</div><!--end main-->
+
+{% include 'includes/footer.twig' %}
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+{% include 'includes/header.twig' %}
+
+<div role="main">
+	<div class="container">
+	    {{widget('menu', 'menu', {})|raw}}
+	</div><!--end container-->
+</div><!--end main-->
+
+{% include 'includes/footer.twig' %}
+
+{% endblock %}
