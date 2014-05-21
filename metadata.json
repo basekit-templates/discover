@@ -1,7 +1,7 @@
 {
-    "name":"Lahti",
-    "thumbnail":"neue.png",
-    "screenshot":"neue.png",
+    "name":"Discover",
+    "thumbnail":"discover.png",
+    "screenshot":"discover.png",
     "pageTypes": ["home", "default", "ecomcheckout"],
     "images":[
         "images/gallery/1.jpg",
