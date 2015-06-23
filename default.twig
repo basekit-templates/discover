@@ -1,15 +1,33 @@
 {% extends "layout.twig" %}
-
+{% block class %}theme-default{% endblock %}
 {% block content %}
 
-{% include 'includes/header.twig' %}
+    <div class="container"> <!-- Container -->
 
-<div role="main">
-	<div class="container">
-	    {{zone('main')|raw}}
-	</div><!--end container-->
-</div><!--end main-->
+        <div class="template-content">
 
-{% include 'includes/footer.twig' %}
+            <!-- Header Include -->
+            {% include "includes/header.twig" %}
+
+        </div>
+
+    </div><!-- End Container -->
+
+    <!-- Navigation -->
+    {{widget('extendednavigation', 'navigation', {"align":"center"})|raw}}
+
+    <div class="container"> <!-- Container -->
+
+        <div class="template-content default-content">
+
+            <!-- Main Widget Zone -->
+            {{zone('main')|raw}}
+
+            <!-- Footer Include -->
+            {% include "includes/footer.twig" %}
+
+        </div>
+
+    </div><!-- End Container -->
 
 {% endblock %}

@@ -1,7 +1,11 @@
-<header class="bk-header">
-	<div class="container">
-		{{widget('logo', 'logo', {"defaultlogo": asset('images/discover-logo.png'),"showTplWidget":"0"})|raw}}
-	    {{widget('companyname', 'header-companyname', {"business": "profile"})|raw}}
-	    {{widget('extendednavigation', 'navigation', {})|raw}}
-	</div><!--end container-->
-</header><!--end header-->
+<!-- Template Widgets -->
+
+        <div class="theme-header">
+            <div class="brand">
+                {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
+                {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+            </div>
+        </div>
+
+
+<!-- End Template Widgets -->

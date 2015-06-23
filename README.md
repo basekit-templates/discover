@@ -1,4 +1,4 @@
-discover
+Discover
 ========
 
-Luxury Template
+BaseKit Theme
