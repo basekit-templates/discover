@@ -252,6 +252,10 @@ td {
     }
 }
 
+.signupform .label {
+    display: none;
+}
+
 
 
 // Blog Search
@@ -267,10 +271,6 @@ td {
         -webkit-align-items: flex-start;
         -ms-flex-align: start;
         align-items: flex-start;
-        padding: 30px 40px;
-        @media @mobile {
-            padding: 20px;
-        }
     }
     .form .button.blogsearch__button {
         vertical-align: top;
@@ -359,14 +359,8 @@ td {
     .fieldset--search .label {
         display: none;
     }
-    .fieldset--search .form-body {
-        padding: 30px 30px 15px;
-    }
     .fieldset--filters .form-body {
-        padding: 15px 30px 30px;
-    }
-    .form-body {
-        background-color: darken(@color-swatch1, 3%);
+        padding: 15px 0 0;
     }
     @media @mobile {
         .input--search {
