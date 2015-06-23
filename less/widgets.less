@@ -71,15 +71,6 @@ a.company-link:hover {
     &.align-center { text-align: center; }
 }
 
-// Negative margin to align navigation to zone on desktop
-
-@media only screen and (min-width: 769px) {
-    .extendednavigation {
-        margin-left: -14px;
-        margin-right: -14px;
-    }
-}
-
 // Dropdown Menu - Folder Item Parent: Gives arrow
 
 .item-name--parent:after {
@@ -230,6 +221,7 @@ a.company-link:hover {
 
 
 
+
 // -----------------------------
 // 4.  #Feature
 // -----------------------------
@@ -306,12 +298,10 @@ a.company-link:hover {
         line-height: @font-swatch9-line-height;
     }
     .button {
-        margin: 1em 0;
-        border-bottom: 3px solid darken(@font-swatch7-background-color-hover, 10%);
+        margin: 1em auto;
         background-color: darken(@font-swatch7-background-color-hover, 4%);
     }
     .button:hover {
-        border-bottom: 3px solid darken(@font-swatch7-background-color, 8%);
         background-color: @font-swatch7-background-color;
     }
 }
