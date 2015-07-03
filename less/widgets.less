@@ -258,7 +258,7 @@ a.company-link:hover {
         box-shadow: inset 0px 0px 0px 5px @color-swatch1;
         max-width: 600px;
         margin: 0 auto;
-        padding: 30px;
+        padding: 100px;
         display: -webkit-flexbox;
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -273,6 +273,9 @@ a.company-link:hover {
         -webkit-align-content: center;
         -ms-align-content: center;
         align-content: center;
+        @media @mobile {
+            padding: 50px;
+        }
     }
     .headline,
     .strapline {
